@@ -1,0 +1,809 @@
+
+
+
+<!-- stz site skeleton pg -->
+
+<!DOCTYPE html>
+<html>
+<title>stz_acct_pg_html</title>
+body{
+    background-color: #f0f0f0;
+}
+#head_up {
+    border: 5px solid #33cc99;
+    background-color: #33cc99;
+    height: 10%;
+}
+.up_logo {
+    float:left;
+    color: white;
+}
+
+.srch_box {
+    padding: 37px 0px 20px 20px;
+    float:left;
+}
+.head_links {
+    padding: 37px 0px 20px 20px;
+}
+#upper_menu {
+    background-color: #f8f8f8;
+    align: center;
+    display: inline-block;    
+}
+#lower_head {
+    text-align: center;
+    background-color: #e0e0e0;
+}
+#forms_a_n_b {
+    text-align: center;
+}
+#foot_doc {
+    display: inline-block;
+    text-align: center;
+    background-color: #f8f8f8;
+    color: #33cc99;
+}
+.company {
+    padding-left: 20px;
+    float:left;
+}
+.support {
+    padding-left: 40px;
+    float:left;}
+.stay-conn {
+    padding-left: 60px;
+    float: left;
+}
+.lglstf {
+    padding-left: 80px;
+    float: left;
+}
+#cpyrght {
+    bottom: 0px;
+    text-align: center;
+    font-size: 10px;
+    background-color: #f8f8f8;
+}
+
+
+</head>
+<body>
+
+		<div id="head_up" class="up_logo"><h1>swaptize</h1></div>
+	
+		<div id="head_up" class="srch_box"><form><input type="text" placeholder="Search..." required><input type="button" value="Search"></form></div>
+
+		<div id="head_up" class="head_links"><a href="http://WWW.AOL.com" target="_new"><IMG SRC="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAAB2CAMAAAAqeZcjAAAASFBMVEX///9+fX59fH14d3i+vb7MzMzY2NjU09Tx8fGqqaqCgYLr6+uenZ50c3T39/eRkJGXlpfFxcXl5eWko6SJiImwsLDe3t64uLhYBptZAAADqUlEQVRoge2a25qrIAyFEbRarVYtdd7/TXeFxBMHOejVZt1MP536mywSUEpIUlJSUlJSUlJSUoi6R5FfruLRWaHjs2a3qP42ZupQM5rdIsp4YaJ+2pugAtx+9dS8vQ86qx101Imtd3ap1quOGuwLsJQ/LtX0h2D21AziJVjd2QiNHLE0U4fzwOSZ2YSXvcy8NNXimuLqTB3NT3FC3hn7XEYdRSSUPuc/7E85P1tL6/Et6O1VXKCyopk/aOyT2KqT3IvinZBKmtqKJZUc0ex1IbUkp1hyXbwC9aMOxAGL3Gh/m5otVAcs6XrgRtXRuInVCUuqPt7fPdUJe4G/zZ7qho32d+erO5Z0UXWE1GJzxAlLqog8V/wQqzs2wt/qmGEf7OqvZx01aqw+2MA6ajhVqT7YoDxjhvPDzXhgA7g4Eo8zqxcW68h5vSF91SwS/bCLv27xyliPvgZgvfKM9Zqrp3yxSx2dryfB11ZdMQVg1z554q+MNdNkOAiL8+9JnsHXVpPhMCzp+Dm3g9Gky3Ag1mG9gb7qYw3EntYRdgkTNRC7+Kvvz52hN0VjF391dYQeGB6cY7CWPtmd+BqFNfqL+bdRI7C/PFONv+irJcNx2BJeCOz6JMSa0d7axMKxxfL2aJNnpP4Ovm1fDsYOVD4g77gr9Xewt3w7FFuKWNm739URzBIM4jXnORBbtJLabWt0GcODfJFm4YZhB4i1Wlnfanwt86s8b8lzEHZDXbm1fK8jK2egdm4IVo5hxvF5UPZJCcJqKjDPl2GH9mDcZvyu3b+EPHPtNfyxMn/svXmFtnC366bSlmdvrPT1cErbEZGrG8++WKicY+oE9zjTPZiR64kFX1XDur5V55wJBrfaJ/2w0BF17bYrJvXgxA3+emFl5dDMOjHtuRDvcT7ywYKv9unwoAa4fM/1wObQJSx7KTouLLr2eXbHSir1pBICL4f3XGesnFVo7UvFV2H7OnLFQuUEUNfF7YbriMUM6/ZQzlUpeXbDQkfMwqg/CnIxXics+KrZQHEVNm3Mswn72WBz8DU0VsGFxQA0uNGwRSE2ZNhDUFnoGN4KNx2kvwXbTc6LxPaTWPCDrywm1lkYr/C3F52nVP6pkZP5FyqHRmUY9Fn6pMildjr/wMJMLv3p91HGC/sGNz8mjXKO3ux7XraHKj8YBstw97ax6qzQ995NcuPzb8Hv+0nA2xDrrOaP3/L7B8rzk6XCVBaXq7ygGJOSkpKSkpKSkv5P/QP2Pj0pMalxZAAAAABJRU5ErkJggg==" height="25px" width="25px" /></a>
+
+			<a href="http://WWW.yahoo.com" target="_new"><IMG SRC="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGYAAABmCAMAAAAOARRQAAAAe1BMVEX///8AAAClpaV0dHSrq6v6+vr19fXm5uZPT0/c3NwiIiKXl5c9PT3q6uqysrLY2NhbW1vPz8+6urqOjo5WVlY2NjYODg4WFhYtLS1BQUHExMSGhoYdHR3v7++fn5+2trZ+fn4uLi5ISEhsbGxkZGRwcHBAQEB5eXkmJiacoRHIAAADEUlEQVRoge1Z27aqMAy03KQooCCggKB4/f8vPAluOa4tQhPhaTOPkDKQJpM0zGYTJkyY8IdhzqWcm2OzuJkjhJPNR6bZiBr2uCya+MFiVJrVk2YzHodMy+WTJvICOQaHq92qRLwgqfRi6EhwL45oQX5yBySR2eOpy5UeFkYQGEWon69xfe0wmO/KHT7vmHn+S1qafhlGNbc3DEuBD4s1+Zb6pjTq3VoMIApmiE+6WO13rRvezT7cJQBZouDz/RQ9l337PZj223WXhY882ncsawwnv9tG4tZ1vkkfLBSXtM8qRfHZf0GjqYkkxmLBZ5lX8JoKee5Ceaj4wlOqbq4HhiWXxYTsj9RMQbl33KCW6i43wJQrbpiZigFkgWnIpAFPVKq2Nmgoj8UFXTRUjSEIEl7tCfoF4D98MO5Qvg4shLgrb6vccrudm1puPuCCLN1YNCdYqFxIrIMQJw4LymaonnLg4hWnus1tUhmBBLU5siYrQjzXNBVHB/wrlWanHP4vWIMIEHojyM8liyai0kScSk2kKbk0R1KpApojhybdipigUkEsjr3NSRvNXSQUmkTcOTRBLnLCOqChmDcoY9LrwcdTfNzAo+0pMTAbGLR8kzuSaDTQaC0eUWmfwHMNRdmtM6luPLG/wOGJskAHe3q/jk44UBZkrIIj78QeAo4FDr3grOFsREq3FE5cdFGDQMtJrt7nnFBbkbtVKOorKospyH0XjkKoEV1SOtsH8JxClRsIZ4e4ZBYRThAPrBNGS6yRD+7QPyfkPsWHd9MpC6CkMQTKhAaXUnD3EM0Ro+nCuYr6IQJdxjuswOeouw2PtsSQeaLCcZSSJXpYRMwRjIvjKJVdtUKIl4rTDdeQkHBx/xjPPNVTZp2NelJ97vmevd02B6bD7nK6GbROmzlwgs8fZHmFNhAK7/sx6wRFuEYLhv/3tc5b4umrsXAr3PM7y2aEP3nGO82Xs/RW7De/Wewh/xE1kL9p2PraDf/+SpIPv/8/cA9NuCX6iD9yrTS7IskyS8eVLPzzLeV80sUJEyb8ZfwD028jOVynwmwAAAAASUVORK5CYII=" height="25px" width="25px" /></a>
+	
+            <a href="http://www.amazon.com" target="_new"><IMG SRC="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS71QiwlsB_M2HRuuvyeUQ5hpvj_iALvnbpeLpTmia-wP5nrPKGVg" height="25px" width="25px" />Account Holder</a></div>
+
+<br>
+
+<div id="upper_menu">
+ <select>
+  <option value="all categories">All Categories</option>
+  <option value="automotive">Automotive</option>
+  <option value="electronics">Electronics</option>
+  <option value="entertainment">Entertainment</option>
+  <option value="fashion">Fashion</option>
+  <option value="health & beauty">Health & Beauty</option>
+  <option value="home & garden">Home & Garden</option>
+  <option value="sporting goods">Sporting Goods</option>
+  <option value="toys & kids">Toys & Kids</option>
+</select> 
+
+<a href="http://WWW.Google.com">automotive</a>
+<a href="http://WWW.Google.com">electronics</a>
+<a href="http://WWW.Google.com">entertainment</a>
+<a href="http://WWW.Google.com">fashion</a>
+<a href="http://WWW.Google.com">health & beauty</a>
+<a href="http://WWW.Google.com">home & garden</a>
+<a href="http://WWW.Google.com">sporting goods</a>
+<a href="http://WWW.Google.com">toys & kids</a>
+</div>
+
+<br>
+
+
+<div id="lower_head">
+<h1>My Account</h1>
+</div>
+
+<div id="forms_a_n_b">
+<form action="http://WWW.Google.com">
+    First name:<br>
+        <input type="text" name="first name"><br>
+    Last name:<br>
+        <input type="text" name="last name"><br>
+    Email:<br>
+        <input type="text" email="email"><br>
+    Password:<br>
+        <input type="text" pass="password"><br>
+    Confirm password:<br>
+        <input type="text" confirm="confirm password"><br>
+        <input type="button" value="Submit">
+
+</form>
+
+<br>
+
+
+<form action="http://www.bing.com">
+    Address:<br>
+        <input type="text" addy="address"><br>
+    City:<br>
+        <input type="text" city="city"><br>
+    State:<br>
+        <input type="text" state="state"><br>
+    Zip:<br>
+        <input type="text" zip="zip"><br>
+        <input type="button" value="Submit">
+
+</form>
+</div>
+<br><br><br><br><br><br><br>
+
+
+         
+<!-- footer goes at the bottom of the code -->
+
+
+<div id="foot_doc" class="company">
+<!-- stack these -->
+About<br>
+<a href="http://WWW.Google.com">our company</a><br>
+<a href="http://WWW.Google.com" target="_new">jobs</a><br>
+<a href="http://WWW.Google.com" target="_new">press</a><br>
+<a href="http://WWW.Google.com" target="_new">investors</a><br>
+</div>
+
+<div id="foot_doc" class="support">
+<!-- new stack next to first -->
+Support<br>
+<!-- these links go under support on foot -->
+<a href="http://WWW.Google.com" target="_new">help</a><br>
+<a href="http://WWW.Google.com" target="_new">FAQ</a><br>
+<a href="http://WWW.Google.com" target="_new">contact us</a><br>
+</div>
+
+<div Id ="foot_doc" class="stay-conn">
+<!-- next stack beside support -->
+Stay Connected<br>
+<a href="http://WWW.Google.com" target="_new">Facebook</a><br>
+<a href=http://WWW.Google.com" target="_new">Twitter</a><br>
+<a href="http://WWW.Google.com" target="_new">Google+</a><br>
+</div>
+
+<div Id ="foot_doc" class="lglstf">
+<!-- last stack in foot -->
+Legal Stuff<br>
+<a href="http://WWW.Google.com" target="_new">User Agreement</a><br>
+<a href="http://WWW.Google.com" target="_new">Privacy Policy</a><br>
+<a href="http://WWW.Google.com" target="_new">Cookies</a><br>
+</div>
+
+<br><br><br><br><br><br><br>
+
+<!-- sub footer, goes to very bottom of page -->
+<div id="cpyrght">
+<p>Copyright ©2015 Swaptize, Inc. All Rights Reserved</p>
+</div>
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+<!-- stz cat pg -->
+
+<!--DOCTYPE html>
+<html>
+<head>
+<title>stz_acct_pg_html</title>
+<style>
+body {
+    background-color: #f0f0f0;
+}
+#head_up {
+    border: 5px solid #33cc99;
+    background-color: #33cc99;
+    height: 10%;
+}
+.up_logo {
+    float:left;
+    color: white;
+}
+.srch_box {
+    padding: 37px 0px 20px 20px;
+    float:left;
+}
+.head_links {
+    padding: 37px 0px 20px 20px;
+}
+#upper_menu {
+    background-color: #f8f8f8;
+    align: center;
+    display: inline-block;
+}
+#lower_head {
+    text-align: center;
+    background-color: #e0e0e0;
+}
+#cat_links {
+    text-align: center;
+}
+#cat_links img {
+    height: 100px;
+    width: 100px;
+}
+#foot_doc {
+    display: inline-block;
+    text-align: center;
+    background-color: #f8f8f8;
+    color: #33cc99;
+}
+.company {
+    padding-left: 20px;
+    float:left;
+}
+.support {
+    padding-left: 40px;
+    float:left;
+}
+.stay-conn {
+    padding-left: 60px;
+    float: left;
+}
+.lglstf {
+    padding-left: 80px;
+    float: left;
+}
+#cpyrght {
+    bottom: 0px;
+    text-align: center;
+    font-size: 10px;
+    background-color: #f8f8f8;
+}
+</style>
+</head>
+<body>
+    <div id="head_up" class="up_logo">
+        <h1>swaptize</h1>
+    </div>
+    <div id="head_up" class="srch_box">
+        <form>
+            <input type="text" placeholder="Search..." required>
+            <input type="button" value="Search">
+        </form>
+    </div>
+    <div id="head_up" class="head_links"><a href="http://WWW.AOL.com" target="_new"><IMG SRC="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAAB2CAMAAAAqeZcjAAAASFBMVEX///9+fX59fH14d3i+vb7MzMzY2NjU09Tx8fGqqaqCgYLr6+uenZ50c3T39/eRkJGXlpfFxcXl5eWko6SJiImwsLDe3t64uLhYBptZAAADqUlEQVRoge2a25qrIAyFEbRarVYtdd7/TXeFxBMHOejVZt1MP536mywSUEpIUlJSUlJSUlJSUoi6R5FfruLRWaHjs2a3qP42ZupQM5rdIsp4YaJ+2pugAtx+9dS8vQ86qx101Imtd3ap1quOGuwLsJQ/LtX0h2D21AziJVjd2QiNHLE0U4fzwOSZ2YSXvcy8NNXimuLqTB3NT3FC3hn7XEYdRSSUPuc/7E85P1tL6/Et6O1VXKCyopk/aOyT2KqT3IvinZBKmtqKJZUc0ex1IbUkp1hyXbwC9aMOxAGL3Gh/m5otVAcs6XrgRtXRuInVCUuqPt7fPdUJe4G/zZ7qho32d+erO5Z0UXWE1GJzxAlLqog8V/wQqzs2wt/qmGEf7OqvZx01aqw+2MA6ajhVqT7YoDxjhvPDzXhgA7g4Eo8zqxcW68h5vSF91SwS/bCLv27xyliPvgZgvfKM9Zqrp3yxSx2dryfB11ZdMQVg1z554q+MNdNkOAiL8+9JnsHXVpPhMCzp+Dm3g9Gky3Ag1mG9gb7qYw3EntYRdgkTNRC7+Kvvz52hN0VjF391dYQeGB6cY7CWPtmd+BqFNfqL+bdRI7C/PFONv+irJcNx2BJeCOz6JMSa0d7axMKxxfL2aJNnpP4Ovm1fDsYOVD4g77gr9Xewt3w7FFuKWNm739URzBIM4jXnORBbtJLabWt0GcODfJFm4YZhB4i1Wlnfanwt86s8b8lzEHZDXbm1fK8jK2egdm4IVo5hxvF5UPZJCcJqKjDPl2GH9mDcZvyu3b+EPHPtNfyxMn/svXmFtnC366bSlmdvrPT1cErbEZGrG8++WKicY+oE9zjTPZiR64kFX1XDur5V55wJBrfaJ/2w0BF17bYrJvXgxA3+emFl5dDMOjHtuRDvcT7ywYKv9unwoAa4fM/1wObQJSx7KTouLLr2eXbHSir1pBICL4f3XGesnFVo7UvFV2H7OnLFQuUEUNfF7YbriMUM6/ZQzlUpeXbDQkfMwqg/CnIxXics+KrZQHEVNm3Mswn72WBz8DU0VsGFxQA0uNGwRSE2ZNhDUFnoGN4KNx2kvwXbTc6LxPaTWPCDrywm1lkYr/C3F52nVP6pkZP5FyqHRmUY9Fn6pMildjr/wMJMLv3p91HGC/sGNz8mjXKO3ux7XraHKj8YBstw97ax6qzQ995NcuPzb8Hv+0nA2xDrrOaP3/L7B8rzk6XCVBaXq7ygGJOSkpKSkpKSkv5P/QP2Pj0pMalxZAAAAABJRU5ErkJggg==" height="25px" width="25px" /></a>
+	<a href="http://WWW.yahoo.com" target="_new"><IMG SRC="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGYAAABmCAMAAAAOARRQAAAAe1BMVEX///8AAAClpaV0dHSrq6v6+vr19fXm5uZPT0/c3NwiIiKXl5c9PT3q6uqysrLY2NhbW1vPz8+6urqOjo5WVlY2NjYODg4WFhYtLS1BQUHExMSGhoYdHR3v7++fn5+2trZ+fn4uLi5ISEhsbGxkZGRwcHBAQEB5eXkmJiacoRHIAAADEUlEQVRoge1Z27aqMAy03KQooCCggKB4/f8vPAluOa4tQhPhaTOPkDKQJpM0zGYTJkyY8IdhzqWcm2OzuJkjhJPNR6bZiBr2uCya+MFiVJrVk2YzHodMy+WTJvICOQaHq92qRLwgqfRi6EhwL45oQX5yBySR2eOpy5UeFkYQGEWon69xfe0wmO/KHT7vmHn+S1qafhlGNbc3DEuBD4s1+Zb6pjTq3VoMIApmiE+6WO13rRvezT7cJQBZouDz/RQ9l337PZj223WXhY882ncsawwnv9tG4tZ1vkkfLBSXtM8qRfHZf0GjqYkkxmLBZ5lX8JoKee5Ceaj4wlOqbq4HhiWXxYTsj9RMQbl33KCW6i43wJQrbpiZigFkgWnIpAFPVKq2Nmgoj8UFXTRUjSEIEl7tCfoF4D98MO5Qvg4shLgrb6vccrudm1puPuCCLN1YNCdYqFxIrIMQJw4LymaonnLg4hWnus1tUhmBBLU5siYrQjzXNBVHB/wrlWanHP4vWIMIEHojyM8liyai0kScSk2kKbk0R1KpApojhybdipigUkEsjr3NSRvNXSQUmkTcOTRBLnLCOqChmDcoY9LrwcdTfNzAo+0pMTAbGLR8kzuSaDTQaC0eUWmfwHMNRdmtM6luPLG/wOGJskAHe3q/jk44UBZkrIIj78QeAo4FDr3grOFsREq3FE5cdFGDQMtJrt7nnFBbkbtVKOorKospyH0XjkKoEV1SOtsH8JxClRsIZ4e4ZBYRThAPrBNGS6yRD+7QPyfkPsWHd9MpC6CkMQTKhAaXUnD3EM0Ro+nCuYr6IQJdxjuswOeouw2PtsSQeaLCcZSSJXpYRMwRjIvjKJVdtUKIl4rTDdeQkHBx/xjPPNVTZp2NelJ97vmevd02B6bD7nK6GbROmzlwgs8fZHmFNhAK7/sx6wRFuEYLhv/3tc5b4umrsXAr3PM7y2aEP3nGO82Xs/RW7De/Wewh/xE1kL9p2PraDf/+SpIPv/8/cA9NuCX6iD9yrTS7IskyS8eVLPzzLeV80sUJEyb8ZfwD028jOVynwmwAAAAASUVORK5CYII=" height="25px" width="25px" /></a>
+ <a href="http://www.amazon.com" target="_new"><IMG SRC="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS71QiwlsB_M2HRuuvyeUQ5hpvj_iALvnbpeLpTmia-wP5nrPKGVg" height="25px" width="25px" />Account Holder</a>
+    </div>
+    <br>
+    <div id="upper_menu">
+        <select>
+            <option value="all categories">All Categories</option>
+            <option value="automotive">Automotive</option>
+            <option value="electronics">Electronics</option>
+            <option value="entertainment">Entertainment</option>
+            <option value="fashion">Fashion</option>
+            <option value="health & beauty">Health & Beauty</option>
+            <option value="home & garden">Home & Garden</option>
+            <option value="sporting goods">Sporting Goods</option>
+            <option value="toys & kids">Toys & Kids</option>
+        </select>
+<a href="http://WWW.Google.com">automotive</a>
+
+<a href="http://WWW.Google.com">electronics</a>
+
+<a href="http://WWW.Google.com">entertainment</a>
+
+<a href="http://WWW.Google.com">fashion</a>
+
+<a href="http://WWW.Google.com">health & beauty</a>
+
+<a href="http://WWW.Google.com">home & garden</a>
+
+<a href="http://WWW.Google.com">sporting goods</a>
+
+<a href="http://WWW.Google.com">toys & kids</a>
+
+    </div>
+    <br>
+    <div id="lower_head">
+        
+<h1>Categories</h1>
+
+    </div>
+    <div id="cat_links"> 
+        <a href="http://www.aol.com"><img src="http://iconizer.net/files/Lumina/orig/muscle_car.png" /><br>automotive</a><br>
+        <a href="http://www.aol.com"><img src="https://cdn4.iconfinder.com/data/icons/X-Mac/web_design/png/256/plan_1_e.png" /><br>electronics</a><br>
+        <a href="http:www.aol.com"><img src="http://png.clipart.me/graphics/thumbs/171/microphones-icon_171256706.jpg" /><br>entertainment</a><br>
+        <a href="http://www.aol.com"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR_wBaQ6i1ozYpRAsCSPwNLNSiLD696pX5NUDYNDKIu7Dl-tOWU" /><br>fashion</a><br>
+        <a href="http://www.aol.com"><img src="http://s3.amazonaws.com/saveoneverything_assets/assets/images/icons/health_beauty_icon.png" /><br>health & beauty</a><br>
+            <a href="http://www.aol.com"><img src="http://img.freepik.com/free-photo/green-gardening-icons_23-2147512387.jpg?size=338&ext=jpg" /><br>home & garden</a><br>
+        <a href="http://www.aol.com"><img src="http://gfx9.com/images/k/o/korea-line-style-sporting-cartoon-vector-elements.jpg" /><br>sporting goods</a><br>
+     <a href="http:www.aol.com"><img src="http://www.toysrus.com/graphics/media/trus/livecode/RD_2014/Icons/TRU/tru_icon_preschool.gif" /><br>toys & kids</a><br> 
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- footer goes at the bottom of the code -->
+    <div id="foot_doc" class="company">
+        <!-- stack these -->About
+        <br>
+<a href="http://WWW.Google.com">our company</a>
+        <br>
+<a href="http://WWW.Google.com" target="_new">jobs</a>
+        <br>
+<a href="http://WWW.Google.com" target="_new">press</a>
+        <br>
+<a href="http://WWW.Google.com" target="_new">investors</a>
+        <br>
+    </div>
+    <div id="foot_doc" class="support">
+        <!-- new stack next to first -->Support
+        <br>
+        <!-- these links go under support on foot -->
+<a href="http://WWW.Google.com" target="_new">help</a>
+        <br>
+<a href="http://WWW.Google.com" target="_new">FAQ</a>
+        <br>
+<a href="http://WWW.Google.com" target="_new">contact us</a>
+        <br>
+    </div>
+    <div Id="foot_doc" class="stay-conn">
+        <!-- next stack beside support -->Stay Connected
+        <br>
+<a href="http://WWW.Google.com" target="_new">Facebook</a>
+        <br><a href=http://WWW.Google.com " target="_new ">Twitter</a><br>
+<a href="http://WWW.Google.com " target="_new ">Google+</a><br>
+</div>
+
+<div Id ="foot_doc " class="lglstf ">
+<!-- last stack in foot -->
+Legal Stuff<br>
+<a href="http://WWW.Google.com " target="_new ">User Agreement</a><br>
+<a href="http://WWW.Google.com " target="_new ">Privacy Policy</a><br>
+<a href="http://WWW.Google.com " target="_new ">Cookies</a><br>
+</div>
+
+<br><br><br><br><br><br><br>
+
+<!-- sub footer, goes to very bottom of page -->
+<div id="cpyrght ">
+<p>Copyright ©2015 Swaptize, Inc. All Rights Reserved</p>
+</div>
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+<!-- stz list_item pg -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>stz_acct_pg_html</title>
+body {
+    background-color: #f0f0f0;
+}
+#head_up {
+    border: 5px solid #33cc99;
+    background-color: #33cc99;
+    height: 10%;
+}
+.up_logo {
+    float:left;
+    color: white;
+}
+.srch_box {
+    padding: 37px 0px 20px 20px;
+    float:left;
+}
+.head_links {
+    padding: 37px 0px 20px 20px;
+}
+#upper_menu {
+    background-color: #f8f8f8;
+    align: center;
+    display: inline-block;
+}
+#lower_head {
+    text-align: center;
+    background-color: #e0e0e0;
+}
+#listing_form {
+    text-align: center;
+}
+#foot_doc {
+    display: inline-block;
+    text-align: center;
+    background-color: #f8f8f8;
+    color: #33cc99;
+}
+.company {
+    padding-left: 20px;
+    float:left;
+}
+.support {
+    padding-left: 40px;
+    float:left;
+}
+.stay-conn {
+    padding-left: 60px;
+    float: left;
+}
+.lglstf {
+    padding-left: 80px;
+    float: left;
+}
+#cpyrght {
+    bottom: 0px;
+    text-align: center;
+    font-size: 10px;
+    background-color: #f8f8f8;
+}
+</head>
+<body>
+    <div id="head_up" class="up_logo">
+        <h1>swaptize</h1>
+    </div>
+    <div id="head_up" class="srch_box">
+        <form>
+            <input type="text" placeholder="Search..." required>
+            <input type="button" value="Search">
+        </form>
+    </div>
+    <div id="head_up" class="head_links"><a href="http://WWW.AOL.com" target="_new"><IMG SRC="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAAB2CAMAAAAqeZcjAAAASFBMVEX///9+fX59fH14d3i+vb7MzMzY2NjU09Tx8fGqqaqCgYLr6+uenZ50c3T39/eRkJGXlpfFxcXl5eWko6SJiImwsLDe3t64uLhYBptZAAADqUlEQVRoge2a25qrIAyFEbRarVYtdd7/TXeFxBMHOejVZt1MP536mywSUEpIUlJSUlJSUlJSUoi6R5FfruLRWaHjs2a3qP42ZupQM5rdIsp4YaJ+2pugAtx+9dS8vQ86qx101Imtd3ap1quOGuwLsJQ/LtX0h2D21AziJVjd2QiNHLE0U4fzwOSZ2YSXvcy8NNXimuLqTB3NT3FC3hn7XEYdRSSUPuc/7E85P1tL6/Et6O1VXKCyopk/aOyT2KqT3IvinZBKmtqKJZUc0ex1IbUkp1hyXbwC9aMOxAGL3Gh/m5otVAcs6XrgRtXRuInVCUuqPt7fPdUJe4G/zZ7qho32d+erO5Z0UXWE1GJzxAlLqog8V/wQqzs2wt/qmGEf7OqvZx01aqw+2MA6ajhVqT7YoDxjhvPDzXhgA7g4Eo8zqxcW68h5vSF91SwS/bCLv27xyliPvgZgvfKM9Zqrp3yxSx2dryfB11ZdMQVg1z554q+MNdNkOAiL8+9JnsHXVpPhMCzp+Dm3g9Gky3Ag1mG9gb7qYw3EntYRdgkTNRC7+Kvvz52hN0VjF391dYQeGB6cY7CWPtmd+BqFNfqL+bdRI7C/PFONv+irJcNx2BJeCOz6JMSa0d7axMKxxfL2aJNnpP4Ovm1fDsYOVD4g77gr9Xewt3w7FFuKWNm739URzBIM4jXnORBbtJLabWt0GcODfJFm4YZhB4i1Wlnfanwt86s8b8lzEHZDXbm1fK8jK2egdm4IVo5hxvF5UPZJCcJqKjDPl2GH9mDcZvyu3b+EPHPtNfyxMn/svXmFtnC366bSlmdvrPT1cErbEZGrG8++WKicY+oE9zjTPZiR64kFX1XDur5V55wJBrfaJ/2w0BF17bYrJvXgxA3+emFl5dDMOjHtuRDvcT7ywYKv9unwoAa4fM/1wObQJSx7KTouLLr2eXbHSir1pBICL4f3XGesnFVo7UvFV2H7OnLFQuUEUNfF7YbriMUM6/ZQzlUpeXbDQkfMwqg/CnIxXics+KrZQHEVNm3Mswn72WBz8DU0VsGFxQA0uNGwRSE2ZNhDUFnoGN4KNx2kvwXbTc6LxPaTWPCDrywm1lkYr/C3F52nVP6pkZP5FyqHRmUY9Fn6pMildjr/wMJMLv3p91HGC/sGNz8mjXKO3ux7XraHKj8YBstw97ax6qzQ995NcuPzb8Hv+0nA2xDrrOaP3/L7B8rzk6XCVBaXq7ygGJOSkpKSkpKSkv5P/QP2Pj0pMalxZAAAAABJRU5ErkJggg==" height="25px" width="25px" /></a>
+	<a href="http://WWW.yahoo.com" target="_new"><IMG SRC="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGYAAABmCAMAAAAOARRQAAAAe1BMVEX///8AAAClpaV0dHSrq6v6+vr19fXm5uZPT0/c3NwiIiKXl5c9PT3q6uqysrLY2NhbW1vPz8+6urqOjo5WVlY2NjYODg4WFhYtLS1BQUHExMSGhoYdHR3v7++fn5+2trZ+fn4uLi5ISEhsbGxkZGRwcHBAQEB5eXkmJiacoRHIAAADEUlEQVRoge1Z27aqMAy03KQooCCggKB4/f8vPAluOa4tQhPhaTOPkDKQJpM0zGYTJkyY8IdhzqWcm2OzuJkjhJPNR6bZiBr2uCya+MFiVJrVk2YzHodMy+WTJvICOQaHq92qRLwgqfRi6EhwL45oQX5yBySR2eOpy5UeFkYQGEWon69xfe0wmO/KHT7vmHn+S1qafhlGNbc3DEuBD4s1+Zb6pjTq3VoMIApmiE+6WO13rRvezT7cJQBZouDz/RQ9l337PZj223WXhY882ncsawwnv9tG4tZ1vkkfLBSXtM8qRfHZf0GjqYkkxmLBZ5lX8JoKee5Ceaj4wlOqbq4HhiWXxYTsj9RMQbl33KCW6i43wJQrbpiZigFkgWnIpAFPVKq2Nmgoj8UFXTRUjSEIEl7tCfoF4D98MO5Qvg4shLgrb6vccrudm1puPuCCLN1YNCdYqFxIrIMQJw4LymaonnLg4hWnus1tUhmBBLU5siYrQjzXNBVHB/wrlWanHP4vWIMIEHojyM8liyai0kScSk2kKbk0R1KpApojhybdipigUkEsjr3NSRvNXSQUmkTcOTRBLnLCOqChmDcoY9LrwcdTfNzAo+0pMTAbGLR8kzuSaDTQaC0eUWmfwHMNRdmtM6luPLG/wOGJskAHe3q/jk44UBZkrIIj78QeAo4FDr3grOFsREq3FE5cdFGDQMtJrt7nnFBbkbtVKOorKospyH0XjkKoEV1SOtsH8JxClRsIZ4e4ZBYRThAPrBNGS6yRD+7QPyfkPsWHd9MpC6CkMQTKhAaXUnD3EM0Ro+nCuYr6IQJdxjuswOeouw2PtsSQeaLCcZSSJXpYRMwRjIvjKJVdtUKIl4rTDdeQkHBx/xjPPNVTZp2NelJ97vmevd02B6bD7nK6GbROmzlwgs8fZHmFNhAK7/sx6wRFuEYLhv/3tc5b4umrsXAr3PM7y2aEP3nGO82Xs/RW7De/Wewh/xE1kL9p2PraDf/+SpIPv/8/cA9NuCX6iD9yrTS7IskyS8eVLPzzLeV80sUJEyb8ZfwD028jOVynwmwAAAAASUVORK5CYII=" height="25px" width="25px" /></a>
+ <a href="http://www.amazon.com" target="_new"><IMG SRC="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS71QiwlsB_M2HRuuvyeUQ5hpvj_iALvnbpeLpTmia-wP5nrPKGVg" height="25px" width="25px" />Account Holder</a>
+    </div>
+    <br>
+    <div id="upper_menu">
+        <select>
+            <option value="all categories">All Categories</option>
+            <option value="automotive">Automotive</option>
+            <option value="electronics">Electronics</option>
+            <option value="entertainment">Entertainment</option>
+            <option value="fashion">Fashion</option>
+            <option value="health & beauty">Health & Beauty</option>
+            <option value="home & garden">Home & Garden</option>
+            <option value="sporting goods">Sporting Goods</option>
+            <option value="toys & kids">Toys & Kids</option>
+        </select>
+<a href="http://WWW.Google.com">automotive</a>
+
+<a href="http://WWW.Google.com">electronics</a>
+
+<a href="http://WWW.Google.com">entertainment</a>
+
+<a href="http://WWW.Google.com">fashion</a>
+
+<a href="http://WWW.Google.com">health & beauty</a>
+
+<a href="http://WWW.Google.com">home & garden</a>
+
+<a href="http://WWW.Google.com">sporting goods</a>
+
+<a href="http://WWW.Google.com">toys & kids</a>
+
+    </div>
+    <br>
+    <div id="lower_head">
+        
+<h1>Add a new item to Swaptize</h1>
+
+    </div>
+    <div id="listing_form">
+        Category<select>
+            <option value="automotive">Automotive</option>
+            <option value="electronics">Electronics</option>
+            <option value="entertainment">Entertainment</option>
+            <option value="fashion">Fashion</option>
+            <option value="health & beauty">Health & Beauty</option>
+            <option value="home & garden">Home & Garden</option>
+            <option value="sporting goods">Sporting Goods</option>
+            <option value="toys & kids">Toys & Kids</option>
+        </select><br><br><br><br><br>
+        <form action="http://WWW.Google.com">
+    Manufacturer
+        <input type="text" name="Mfg"><br><br><br><br><br>
+    Product Name
+        <input type="text" name="name"><br><br><br><br><br>
+    Product Details
+        <input type="text" name="details"><br><br><br><br><br>
+        <input type="button" value="+ Add Additional Details"><br><br><br><br><br>
+    Condition<!-- need 5 fillable dot scale --><br><br><br><br><br>
+    Description
+        <input type="text" name="descrip"><br><br><br><br><br>
+    Willing to trade for...
+        <input type="text" name="trade_interest"><br><br><br><br><br>
+    Pictures    
+        <input type="button" value="browse_upload"><br><br><br><br><br>
+        <input type="button" value="Swaptize My Item"><br>
+
+</form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- footer goes at the bottom of the code -->
+    <div id="foot_doc" class="company">
+        <!-- stack these -->About
+        <br>
+<a href="http://WWW.Google.com">our company</a>
+        <br>
+<a href="http://WWW.Google.com" target="_new">jobs</a>
+        <br>
+<a href="http://WWW.Google.com" target="_new">press</a>
+        <br>
+<a href="http://WWW.Google.com" target="_new">investors</a>
+        <br>
+    </div>
+    <div id="foot_doc" class="support">
+        <!-- new stack next to first -->Support
+        <br>
+        <!-- these links go under support on foot -->
+<a href="http://WWW.Google.com" target="_new">help</a>
+        <br>
+<a href="http://WWW.Google.com" target="_new">FAQ</a>
+        <br>
+<a href="http://WWW.Google.com" target="_new">contact us</a>
+        <br>
+    </div>
+    <div Id="foot_doc" class="stay-conn">
+        <!-- next stack beside support -->Stay Connected
+        <br>
+<a href="http://WWW.Google.com" target="_new">Facebook</a>
+        <br><a href=http://WWW.Google.com " target="_new ">Twitter</a><br>
+<a href="http://WWW.Google.com " target="_new ">Google+</a><br>
+</div>
+
+<div Id ="foot_doc " class="lglstf ">
+<!-- last stack in foot -->
+Legal Stuff<br>
+<a href="http://WWW.Google.com " target="_new ">User Agreement</a><br>
+<a href="http://WWW.Google.com " target="_new ">Privacy Policy</a><br>
+<a href="http://WWW.Google.com " target="_new ">Cookies</a><br>
+</div>
+
+<br><br><br><br><br><br><br>
+
+<!-- sub footer, goes to very bottom of page -->
+<div id="cpyrght ">
+<p>Copyright ©2015 Swaptize, Inc. All Rights Reserved</p>
+</div>
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+<!-- stz acct pg -->
+
+<!DOCTYPE html>
+<html>
+<title>stz_acct_pg_html</title>
+body{
+    background-color: #f0f0f0;
+}
+#head_up {
+    border: 5px solid #33cc99;
+    background-color: #33cc99;
+    height: 10%;
+}
+.up_logo {
+    float:left;
+    color: white;
+}
+
+.srch_box {
+    padding: 37px 0px 20px 20px;
+    float:left;
+}
+.head_links {
+    padding: 37px 0px 20px 20px;
+}
+#upper_menu {
+    background-color: #f8f8f8;
+    align: center;
+    display: inline-block;    
+}
+#lower_head {
+    text-align: center;
+    background-color: #e0e0e0;
+}
+#forms_a_n_b {
+    text-align: center;
+}
+#foot_doc {
+    display: inline-block;
+    text-align: center;
+    background-color: #f8f8f8;
+    color: #33cc99;
+}
+.company {
+    padding-left: 20px;
+    float:left;
+}
+.support {
+    padding-left: 40px;
+    float:left;}
+.stay-conn {
+    padding-left: 60px;
+    float: left;
+}
+.lglstf {
+    padding-left: 80px;
+    float: left;
+}
+#cpyrght {
+    bottom: 0px;
+    text-align: center;
+    font-size: 10px;
+    background-color: #f8f8f8;
+}
+
+
+</head>
+<body>
+
+		<div id="head_up" class="up_logo"><h1>swaptize</h1></div>
+	
+		<div id="head_up" class="srch_box"><form><input type="text" placeholder="Search..." required><input type="button" value="Search"></form></div>
+
+		<div id="head_up" class="head_links"><a href="http://WWW.AOL.com" target="_new"><IMG SRC="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAAB2CAMAAAAqeZcjAAAASFBMVEX///9+fX59fH14d3i+vb7MzMzY2NjU09Tx8fGqqaqCgYLr6+uenZ50c3T39/eRkJGXlpfFxcXl5eWko6SJiImwsLDe3t64uLhYBptZAAADqUlEQVRoge2a25qrIAyFEbRarVYtdd7/TXeFxBMHOejVZt1MP536mywSUEpIUlJSUlJSUlJSUoi6R5FfruLRWaHjs2a3qP42ZupQM5rdIsp4YaJ+2pugAtx+9dS8vQ86qx101Imtd3ap1quOGuwLsJQ/LtX0h2D21AziJVjd2QiNHLE0U4fzwOSZ2YSXvcy8NNXimuLqTB3NT3FC3hn7XEYdRSSUPuc/7E85P1tL6/Et6O1VXKCyopk/aOyT2KqT3IvinZBKmtqKJZUc0ex1IbUkp1hyXbwC9aMOxAGL3Gh/m5otVAcs6XrgRtXRuInVCUuqPt7fPdUJe4G/zZ7qho32d+erO5Z0UXWE1GJzxAlLqog8V/wQqzs2wt/qmGEf7OqvZx01aqw+2MA6ajhVqT7YoDxjhvPDzXhgA7g4Eo8zqxcW68h5vSF91SwS/bCLv27xyliPvgZgvfKM9Zqrp3yxSx2dryfB11ZdMQVg1z554q+MNdNkOAiL8+9JnsHXVpPhMCzp+Dm3g9Gky3Ag1mG9gb7qYw3EntYRdgkTNRC7+Kvvz52hN0VjF391dYQeGB6cY7CWPtmd+BqFNfqL+bdRI7C/PFONv+irJcNx2BJeCOz6JMSa0d7axMKxxfL2aJNnpP4Ovm1fDsYOVD4g77gr9Xewt3w7FFuKWNm739URzBIM4jXnORBbtJLabWt0GcODfJFm4YZhB4i1Wlnfanwt86s8b8lzEHZDXbm1fK8jK2egdm4IVo5hxvF5UPZJCcJqKjDPl2GH9mDcZvyu3b+EPHPtNfyxMn/svXmFtnC366bSlmdvrPT1cErbEZGrG8++WKicY+oE9zjTPZiR64kFX1XDur5V55wJBrfaJ/2w0BF17bYrJvXgxA3+emFl5dDMOjHtuRDvcT7ywYKv9unwoAa4fM/1wObQJSx7KTouLLr2eXbHSir1pBICL4f3XGesnFVo7UvFV2H7OnLFQuUEUNfF7YbriMUM6/ZQzlUpeXbDQkfMwqg/CnIxXics+KrZQHEVNm3Mswn72WBz8DU0VsGFxQA0uNGwRSE2ZNhDUFnoGN4KNx2kvwXbTc6LxPaTWPCDrywm1lkYr/C3F52nVP6pkZP5FyqHRmUY9Fn6pMildjr/wMJMLv3p91HGC/sGNz8mjXKO3ux7XraHKj8YBstw97ax6qzQ995NcuPzb8Hv+0nA2xDrrOaP3/L7B8rzk6XCVBaXq7ygGJOSkpKSkpKSkv5P/QP2Pj0pMalxZAAAAABJRU5ErkJggg==" height="25px" width="25px" /></a>
+
+			<a href="http://WWW.yahoo.com" target="_new"><IMG SRC="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGYAAABmCAMAAAAOARRQAAAAe1BMVEX///8AAAClpaV0dHSrq6v6+vr19fXm5uZPT0/c3NwiIiKXl5c9PT3q6uqysrLY2NhbW1vPz8+6urqOjo5WVlY2NjYODg4WFhYtLS1BQUHExMSGhoYdHR3v7++fn5+2trZ+fn4uLi5ISEhsbGxkZGRwcHBAQEB5eXkmJiacoRHIAAADEUlEQVRoge1Z27aqMAy03KQooCCggKB4/f8vPAluOa4tQhPhaTOPkDKQJpM0zGYTJkyY8IdhzqWcm2OzuJkjhJPNR6bZiBr2uCya+MFiVJrVk2YzHodMy+WTJvICOQaHq92qRLwgqfRi6EhwL45oQX5yBySR2eOpy5UeFkYQGEWon69xfe0wmO/KHT7vmHn+S1qafhlGNbc3DEuBD4s1+Zb6pjTq3VoMIApmiE+6WO13rRvezT7cJQBZouDz/RQ9l337PZj223WXhY882ncsawwnv9tG4tZ1vkkfLBSXtM8qRfHZf0GjqYkkxmLBZ5lX8JoKee5Ceaj4wlOqbq4HhiWXxYTsj9RMQbl33KCW6i43wJQrbpiZigFkgWnIpAFPVKq2Nmgoj8UFXTRUjSEIEl7tCfoF4D98MO5Qvg4shLgrb6vccrudm1puPuCCLN1YNCdYqFxIrIMQJw4LymaonnLg4hWnus1tUhmBBLU5siYrQjzXNBVHB/wrlWanHP4vWIMIEHojyM8liyai0kScSk2kKbk0R1KpApojhybdipigUkEsjr3NSRvNXSQUmkTcOTRBLnLCOqChmDcoY9LrwcdTfNzAo+0pMTAbGLR8kzuSaDTQaC0eUWmfwHMNRdmtM6luPLG/wOGJskAHe3q/jk44UBZkrIIj78QeAo4FDr3grOFsREq3FE5cdFGDQMtJrt7nnFBbkbtVKOorKospyH0XjkKoEV1SOtsH8JxClRsIZ4e4ZBYRThAPrBNGS6yRD+7QPyfkPsWHd9MpC6CkMQTKhAaXUnD3EM0Ro+nCuYr6IQJdxjuswOeouw2PtsSQeaLCcZSSJXpYRMwRjIvjKJVdtUKIl4rTDdeQkHBx/xjPPNVTZp2NelJ97vmevd02B6bD7nK6GbROmzlwgs8fZHmFNhAK7/sx6wRFuEYLhv/3tc5b4umrsXAr3PM7y2aEP3nGO82Xs/RW7De/Wewh/xE1kL9p2PraDf/+SpIPv/8/cA9NuCX6iD9yrTS7IskyS8eVLPzzLeV80sUJEyb8ZfwD028jOVynwmwAAAAASUVORK5CYII=" height="25px" width="25px" /></a>
+	
+            <a href="http://www.amazon.com" target="_new"><IMG SRC="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS71QiwlsB_M2HRuuvyeUQ5hpvj_iALvnbpeLpTmia-wP5nrPKGVg" height="25px" width="25px" />Account Holder</a></div>
+
+<br>
+
+<div id="upper_menu">
+ <select>
+  <option value="all categories">All Categories</option>
+  <option value="automotive">Automotive</option>
+  <option value="electronics">Electronics</option>
+  <option value="entertainment">Entertainment</option>
+  <option value="fashion">Fashion</option>
+  <option value="health & beauty">Health & Beauty</option>
+  <option value="home & garden">Home & Garden</option>
+  <option value="sporting goods">Sporting Goods</option>
+  <option value="toys & kids">Toys & Kids</option>
+</select> 
+
+<a href="http://WWW.Google.com">automotive</a>
+<a href="http://WWW.Google.com">electronics</a>
+<a href="http://WWW.Google.com">entertainment</a>
+<a href="http://WWW.Google.com">fashion</a>
+<a href="http://WWW.Google.com">health & beauty</a>
+<a href="http://WWW.Google.com">home & garden</a>
+<a href="http://WWW.Google.com">sporting goods</a>
+<a href="http://WWW.Google.com">toys & kids</a>
+</div>
+
+<br>
+
+
+<div id="lower_head">
+<h1>My Account</h1>
+</div>
+
+<div id="forms_a_n_b"
+<form action="http://WWW.Google.com">
+    First name:<br>
+        <input type="text" name="first name"><br>
+    Last name:<br>
+        <input type="text" name="last name"><br>
+    Email:<br>
+        <input type="text" email="email"><br>
+    Password:<br>
+        <input type="text" pass="password"><br>
+    Confirm password:<br>
+        <input type="text" confirm="confirm password"><br>
+        <input type="button" value="Submit">
+
+</form>
+
+<br>
+
+
+<form action="http://www.bing.com">
+    Address:<br>
+        <input type="text" addy="address"><br>
+    City:<br>
+        <input type="text" city="city"><br>
+    State:<br>
+        <input type="text" state="state"><br>
+    Zip:<br>
+        <input type="text" zip="zip"><br>
+        <input type="button" value="Submit">
+
+</form>
+</div>
+<br><br><br><br><br><br><br>
+
+
+         
+<!-- footer goes at the bottom of the code -->
+
+
+<div id="foot_doc" class="company">
+<!-- stack these -->
+About<br>
+<a href="http://WWW.Google.com">our company</a><br>
+<a href="http://WWW.Google.com" target="_new">jobs</a><br>
+<a href="http://WWW.Google.com" target="_new">press</a><br>
+<a href="http://WWW.Google.com" target="_new">investors</a><br>
+</div>
+
+<div id="foot_doc" class="support">
+<!-- new stack next to first -->
+Support<br>
+<!-- these links go under support on foot -->
+<a href="http://WWW.Google.com" target="_new">help</a><br>
+<a href="http://WWW.Google.com" target="_new">FAQ</a><br>
+<a href="http://WWW.Google.com" target="_new">contact us</a><br>
+</div>
+
+<div Id ="foot_doc" class="stay-conn">
+<!-- next stack beside support -->
+Stay Connected<br>
+<a href="http://WWW.Google.com" target="_new">Facebook</a><br>
+<a href=http://WWW.Google.com" target="_new">Twitter</a><br>
+<a href="http://WWW.Google.com" target="_new">Google+</a><br>
+</div>
+
+<div Id ="foot_doc" class="lglstf">
+<!-- last stack in foot -->
+Legal Stuff<br>
+<a href="http://WWW.Google.com" target="_new">User Agreement</a><br>
+<a href="http://WWW.Google.com" target="_new">Privacy Policy</a><br>
+<a href="http://WWW.Google.com" target="_new">Cookies</a><br>
+</div>
+
+<br><br><br><br><br><br><br>
+
+<!-- sub footer, goes to very bottom of page -->
+<div id="cpyrght">
+<p>Copyright ©2015 Swaptize, Inc. All Rights Reserved</p>
+</div>
+
+
+
+</body>
+
+</html>
