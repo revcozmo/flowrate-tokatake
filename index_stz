@@ -198,7 +198,258 @@ Legal Stuff<br>
 
 </html>
 
+<!-- end of skeleton -->
 
+
+
+<!-- stz_product_pg -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>stz_acct_pg_html</title>
+<style>
+body {
+    background-color: #f0f0f0;
+}
+#head_up {
+    border: 5px solid #33cc99;
+    background-color: #33cc99;
+    height: 10%;
+}
+.up_logo {
+    float:left;
+    color: white;
+}
+.srch_box {
+    padding: 37px 0px 20px 20px;
+    float:left;
+}
+.head_links {
+    padding: 37px 0px 20px 20px;
+}
+#upper_menu {
+    background-color: #f8f8f8;
+    align: center;
+    display: inline-block;
+}
+#product_pg_body {
+    position: relative;
+}
+.left_side_body {
+    float: left;
+    padding-left: 5px;
+    padding-right: 50%;
+    width: 50%;
+}
+.right_side_body {
+    float: left;
+    padding-left: 50%;
+    width: 50%;
+}
+.lower_body {
+    text-align: center;
+    width: 60%;
+}
+#soc_med_links{
+    display: inline-block;
+}
+#further_interest{
+    display: inline-block;
+}
+#foot_doc {
+    display: inline-block;
+    text-align: center;
+    background-color: #f8f8f8;
+    color: #33cc99;
+}
+.company {
+    padding-left: 20px;
+    float:left;
+}
+.support {
+    padding-left: 40px;
+    float:left;
+}
+.stay-conn {
+    padding-left: 60px;
+    float: left;
+}
+.lglstf {
+    padding-left: 80px;
+    float: left;
+}
+#cpyrght {
+    bottom: 0px;
+    text-align: center;
+    font-size: 10px;
+    background-color: #f8f8f8;
+}
+</style>
+</head>
+<body>
+    <div id="head_up" class="up_logo">
+         <h1>swaptize</h1>
+
+    </div>
+    <div id="head_up" class="srch_box">
+        <form>
+            <input type="text" placeholder="Search..." required>
+            <input type="button" value="Search">
+        </form>
+    </div>
+    <div id="head_up" class="head_links"><a href="http://WWW.AOL.com" target="_new"><IMG SRC="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAAB2CAMAAAAqeZcjAAAASFBMVEX///9+fX59fH14d3i+vb7MzMzY2NjU09Tx8fGqqaqCgYLr6+uenZ50c3T39/eRkJGXlpfFxcXl5eWko6SJiImwsLDe3t64uLhYBptZAAADqUlEQVRoge2a25qrIAyFEbRarVYtdd7/TXeFxBMHOejVZt1MP536mywSUEpIUlJSUlJSUlJSUoi6R5FfruLRWaHjs2a3qP42ZupQM5rdIsp4YaJ+2pugAtx+9dS8vQ86qx101Imtd3ap1quOGuwLsJQ/LtX0h2D21AziJVjd2QiNHLE0U4fzwOSZ2YSXvcy8NNXimuLqTB3NT3FC3hn7XEYdRSSUPuc/7E85P1tL6/Et6O1VXKCyopk/aOyT2KqT3IvinZBKmtqKJZUc0ex1IbUkp1hyXbwC9aMOxAGL3Gh/m5otVAcs6XrgRtXRuInVCUuqPt7fPdUJe4G/zZ7qho32d+erO5Z0UXWE1GJzxAlLqog8V/wQqzs2wt/qmGEf7OqvZx01aqw+2MA6ajhVqT7YoDxjhvPDzXhgA7g4Eo8zqxcW68h5vSF91SwS/bCLv27xyliPvgZgvfKM9Zqrp3yxSx2dryfB11ZdMQVg1z554q+MNdNkOAiL8+9JnsHXVpPhMCzp+Dm3g9Gky3Ag1mG9gb7qYw3EntYRdgkTNRC7+Kvvz52hN0VjF391dYQeGB6cY7CWPtmd+BqFNfqL+bdRI7C/PFONv+irJcNx2BJeCOz6JMSa0d7axMKxxfL2aJNnpP4Ovm1fDsYOVD4g77gr9Xewt3w7FFuKWNm739URzBIM4jXnORBbtJLabWt0GcODfJFm4YZhB4i1Wlnfanwt86s8b8lzEHZDXbm1fK8jK2egdm4IVo5hxvF5UPZJCcJqKjDPl2GH9mDcZvyu3b+EPHPtNfyxMn/svXmFtnC366bSlmdvrPT1cErbEZGrG8++WKicY+oE9zjTPZiR64kFX1XDur5V55wJBrfaJ/2w0BF17bYrJvXgxA3+emFl5dDMOjHtuRDvcT7ywYKv9unwoAa4fM/1wObQJSx7KTouLLr2eXbHSir1pBICL4f3XGesnFVo7UvFV2H7OnLFQuUEUNfF7YbriMUM6/ZQzlUpeXbDQkfMwqg/CnIxXics+KrZQHEVNm3Mswn72WBz8DU0VsGFxQA0uNGwRSE2ZNhDUFnoGN4KNx2kvwXbTc6LxPaTWPCDrywm1lkYr/C3F52nVP6pkZP5FyqHRmUY9Fn6pMildjr/wMJMLv3p91HGC/sGNz8mjXKO3ux7XraHKj8YBstw97ax6qzQ995NcuPzb8Hv+0nA2xDrrOaP3/L7B8rzk6XCVBaXq7ygGJOSkpKSkpKSkv5P/QP2Pj0pMalxZAAAAABJRU5ErkJggg==" height="25px" width="25px" /></a>
+	<a href="http://WWW.yahoo.com" target="_new"><IMG SRC="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGYAAABmCAMAAAAOARRQAAAAe1BMVEX///8AAAClpaV0dHSrq6v6+vr19fXm5uZPT0/c3NwiIiKXl5c9PT3q6uqysrLY2NhbW1vPz8+6urqOjo5WVlY2NjYODg4WFhYtLS1BQUHExMSGhoYdHR3v7++fn5+2trZ+fn4uLi5ISEhsbGxkZGRwcHBAQEB5eXkmJiacoRHIAAADEUlEQVRoge1Z27aqMAy03KQooCCggKB4/f8vPAluOa4tQhPhaTOPkDKQJpM0zGYTJkyY8IdhzqWcm2OzuJkjhJPNR6bZiBr2uCya+MFiVJrVk2YzHodMy+WTJvICOQaHq92qRLwgqfRi6EhwL45oQX5yBySR2eOpy5UeFkYQGEWon69xfe0wmO/KHT7vmHn+S1qafhlGNbc3DEuBD4s1+Zb6pjTq3VoMIApmiE+6WO13rRvezT7cJQBZouDz/RQ9l337PZj223WXhY882ncsawwnv9tG4tZ1vkkfLBSXtM8qRfHZf0GjqYkkxmLBZ5lX8JoKee5Ceaj4wlOqbq4HhiWXxYTsj9RMQbl33KCW6i43wJQrbpiZigFkgWnIpAFPVKq2Nmgoj8UFXTRUjSEIEl7tCfoF4D98MO5Qvg4shLgrb6vccrudm1puPuCCLN1YNCdYqFxIrIMQJw4LymaonnLg4hWnus1tUhmBBLU5siYrQjzXNBVHB/wrlWanHP4vWIMIEHojyM8liyai0kScSk2kKbk0R1KpApojhybdipigUkEsjr3NSRvNXSQUmkTcOTRBLnLCOqChmDcoY9LrwcdTfNzAo+0pMTAbGLR8kzuSaDTQaC0eUWmfwHMNRdmtM6luPLG/wOGJskAHe3q/jk44UBZkrIIj78QeAo4FDr3grOFsREq3FE5cdFGDQMtJrt7nnFBbkbtVKOorKospyH0XjkKoEV1SOtsH8JxClRsIZ4e4ZBYRThAPrBNGS6yRD+7QPyfkPsWHd9MpC6CkMQTKhAaXUnD3EM0Ro+nCuYr6IQJdxjuswOeouw2PtsSQeaLCcZSSJXpYRMwRjIvjKJVdtUKIl4rTDdeQkHBx/xjPPNVTZp2NelJ97vmevd02B6bD7nK6GbROmzlwgs8fZHmFNhAK7/sx6wRFuEYLhv/3tc5b4umrsXAr3PM7y2aEP3nGO82Xs/RW7De/Wewh/xE1kL9p2PraDf/+SpIPv/8/cA9NuCX6iD9yrTS7IskyS8eVLPzzLeV80sUJEyb8ZfwD028jOVynwmwAAAAASUVORK5CYII=" height="25px" width="25px" /></a>
+ <a href="http://www.amazon.com" target="_new"><IMG SRC="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS71QiwlsB_M2HRuuvyeUQ5hpvj_iALvnbpeLpTmia-wP5nrPKGVg" height="25px" width="25px" />Account Holder</a>
+
+    </div>
+    <br>
+    <div id="upper_menu">
+        <select>
+            <option value="all categories">All Categories</option>
+            <option value="automotive">Automotive</option>
+            <option value="electronics">Electronics</option>
+            <option value="entertainment">Entertainment</option>
+            <option value="fashion">Fashion</option>
+            <option value="health & beauty">Health & Beauty</option>
+            <option value="home & garden">Home & Garden</option>
+            <option value="sporting goods">Sporting Goods</option>
+            <option value="toys & kids">Toys & Kids</option>
+        </select>
+<a href="http://WWW.Google.com">automotive</a>
+
+<a href="http://WWW.Google.com">electronics</a>
+
+<a href="http://WWW.Google.com">entertainment</a>
+
+<a href="http://WWW.Google.com">fashion</a>
+
+<a href="http://WWW.Google.com">health & beauty</a>
+
+<a href="http://WWW.Google.com">home & garden</a>
+
+<a href="http://WWW.Google.com">sporting goods</a>
+
+<a href="http://WWW.Google.com">toys & kids</a>
+
+    </div>
+    <br>
+    <div id="product_pg_body" class="left_side_body"> <a href="http://starwars.wikia.com/wiki/Yoda" target="_new">
+            <img src="data:image/jpeg;base64,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" /> </a>
+        <br> <a href="http://starwars.wikia.com/wiki/Yoda" target="_new"><img src="http://img1.wikia.nocookie.net/__cb20130810203813/starwars/images/d/df/Yoda%27s_hover_chair.png" style="height:70px;width:70px;margin-left:5px" /> </a>
+ <a href="http://starwars.wikia.com/wiki/Yoda" target="_new"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQWWRlhTztTiqKiKKSeP8iROm81ASUvwRCPb_nQny6RyxYoxlRbAQ" style="height:70px;width:70px" /> </a>
+ <a href="http://starwars.wikia.com/wiki/Yoda" target="_new"><img src="http://img1.wikia.nocookie.net/__cb20100125172609/starwars/images/f/f3/Yoda_naturist.jpg" style="height:70px;width:70px" /> </a>
+    </div>
+    <div id="product_pg_body" class="right_side_body"> <a href="http://starwars.wikia.com/wiki/Yoda" target="_new">title of item being viewed</a>
+ <a href="http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/3d-glossy-green-orbs-icons-alphanumeric/102994-3d-glossy-green-orb-icon-alphanumeric-number-8.png" target="new"></a>Trader Rating
+        <br> <a href="http://starwars.wikia.com/wiki/Yoda" target="_new">item owner member name</a>
+        <br>
+        <p>item posted: date</p>
+        <input type="button" value="Offer Trade">
+        <p>________________________________________</p>
+    </div>
+    <ol>
+        <li>item info</li>
+        <br>
+        <li>color of item</li>
+        <br>
+        <li>manufacturer of item</li>
+        <br>
+        <li>condition of the item in dropdown</li>
+        <br>
+        <li>paragraph description of item</li>
+        <br>
+    </ol>
+    <p>________________________________________</p>
+    <br>
+    <br>
+    <br>
+    <p>looking for: Anything Else (Color)</p>
+    <br>
+    <br>
+    <br>
+    <p>________________________________________</p>
+    <br>
+    <br>
+    <br>
+        <div id="soc_med_links">
+        <p>Share</p> <a href="http://www.facebook.com" target "_new"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/REI4QzQtOjcBCgoKDQwNGg8PGjclHyU2Nzc3Nzc4NzQzODc3NzcvNzcrMjU3NzQ3NzcsNzc1ODguNzgrNzc0ODE0NywrNTQsMv/AABEIAB8AHwMBEQACEQEDEQH/xAAYAAADAQEAAAAAAAAAAAAAAAAFBgcEA//EAC8QAAIABAMGAwkBAAAAAAAAAAECAwQFEQAGIRITIjFBcVFisgcUI1JykpPB0RX/xAAYAQEBAQEBAAAAAAAAAAAAAAAEBQMBAv/EACgRAAEEAgEDAgcBAAAAAAAAAAEAAgMRBBIhE2HwIjEjJDNBUYGRBf/aAAwDAQACEQMRAD8AYK1U4jTr3IuCdSL2F7ADw5YsQxjW1NkebWD/AEInzD7RjXQLPYpnpmXJ+clIczGmocBYi7Spugxt0J5YHJkxtdqBaSyBzhZNLnRJh4FWjSW2GCRGhsVFg1r8Vuh0x2UAsDlyO9i1IFeqMxCrEwg2WUO1gR5mw2BtsCNKacteWJmQn6nuK1GWUld2zGLvQvFpYXI747OHsZcYsrkRY51PNBViuQqa9EWFUJ33aS4Bvd4Fv4anxxFiLxJbRZVOQM0pxoKeZTjg5smIEvFESUhxnWE412lAaxv10xSyAekCfdCirc0eEsZjW9amPrb1theMPhjz7I859ZQ9k+G3Y4W0IzjwVW/aGL5DgjzQP1iFgj5o/tVsv6H8Sb7Oxatr3PobDc4ehGxjyUbzBkyNNzrxpXYZHYsOPZZbm5HIgi5ODw5fTFELWSDc2hwyLPWsVH5R/MJH+i38LE4fdGanTMx1OniQm4sNpcFbKCgOnLULgzJ8eN+7W8+d1u+OR7dXHjzstGVMsPSo/vExshlBCorbRJPUnt0748ZGT1fZdiiEa//Z" />  </a>  <a href="http://www.twitter.com" target="_new"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84Q0A5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3NzgyMTc3Ly83MjctNDI0Nys0ODc0NzQsNC80NDQ0NywvNzQ1NP/AABEIACAAIAMBEQACEQEDEQH/xAAZAAEBAQADAAAAAAAAAAAAAAAEBgUAAQL/xAAtEAACAQMCAwUJAQAAAAAAAAABAgMEBREAEiFR0SIxVYGSEyRCUmFyc5GyBv/EABoBAAMBAQEBAAAAAAAAAAAAAAMEBQACBgH/xAAnEQACAgECBAYDAAAAAAAAAAABAgADBBFREiFBcQUUFTOh8CIysf/aAAwDAQACEQMRAD8At7nVPUV05lw22RkXcAcAHHDVrHrVaxpPK5lzPe2vQ6Q4x8kfoHTRtBFuI/ROt6btuIt3LYudblNxH6Iq2VT09dAYsLukVGCjAIJxx0HIrVqzrGsO50uUDqdISqb36q/PJ/R13T7S9oLK99+5motl9rTJPQS53DJikYkeTd/7zpXzDI3C0eOEtqB65oyWSnakEK5R1HCRSQS3M8/PQBewbijjYdZr4JPRxywXGmjnjKOJ4+GQfiHLTzuHpYjaSaqmryUVtx/YWcq9yq1aQR+8SdphkDtnvxr7WSKVI2nOQFOS4Y6czK3/AD1O9NTv7Wsp5UbiojYkL5npqfkOXb9dJZwahUh/MET3db1S0cTLDIss5HZVTkD6nWpx3c8+Qmys6qpdFOrSPppS9xpSxyTUR5J+8ao3DSpu0iYpJyEJ3EXerFcYrjPJTU7Twyu0gKsARk5IOTpajLQIFbpKGX4ba9pevmDBC13bw6X1L10XzdO8V9MydvkThtd38Ol9S9dbzdO83pmTt8iMs1iuMtxgepp2giikWQszA5wcgDB0K/LQoVXrGsTw61LQz8gJ/9k=" />      </a>
+        <a href="http://www.pinterest.com" target="_new"><img src="http://www.atozprinting.com/img/pinterest.png" /> </a></div>
+
+    <br><br><br>
+        <div id="further_interest">
+        <p>You also might be interested in...</p>
+                <a href="http://www.google.com" target="_new"><img src="http://i1.mirror.co.uk/incoming/article252175.ece/ALTERNATES/s615/image-1-for-new-species-discovered-in-the-pacific-highlands-of-papua-new-guinea-gallery-910112876.jpg" style="width:70px; height:70px" /></a>
+        <a href="http://www.bing.com" target="_new"><img src="https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s320x320/e15/10787968_740401202697302_647537826_n.jpg" style="width:70px; height:70px" /> </a>
+        <a href="http://www.yahoo.com" target="_new"><img src="http://laweekly.blogs.com/.a/6a00d83451afa369e20148c7467ade970c-400wi" style="width:70px; height:70px" /></a> <br>
+        <!-- import description under each of the three pic links above -->
+            </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- footer goes at the bottom of the code -->
+    <div id="foot_doc" class="company">
+        <!-- stack these -->About
+        <br>
+<a href="http://WWW.Google.com">our company</a>
+
+        <br>
+<a href="http://WWW.Google.com" target="_new">jobs</a>
+
+        <br>
+<a href="http://WWW.Google.com" target="_new">press</a>
+
+        <br>
+<a href="http://WWW.Google.com" target="_new">investors</a>
+
+        <br>
+    </div>
+    <div id="foot_doc" class="support">
+        <!-- new stack next to first -->Support
+        <br>
+        <!-- these links go under support on foot -->
+<a href="http://WWW.Google.com" target="_new">help</a>
+
+        <br>
+<a href="http://WWW.Google.com" target="_new">FAQ</a>
+
+        <br>
+<a href="http://WWW.Google.com" target="_new">contact us</a>
+
+        <br>
+    </div>
+    <div Id="foot_doc" class="stay-conn">
+        <!-- next stack beside support -->Stay Connected
+        <br>
+<a href="http://WWW.Google.com" target="_new">Facebook</a>
+
+        <br><a href=http://WWW.Google.com " target="_new ">Twitter</a><br>
+<a href="http://WWW.Google.com " target="_new ">Google+</a><br>
+</div>
+
+<div Id ="foot_doc " class="lglstf ">
+<!-- last stack in foot -->
+Legal Stuff<br>
+<a href="http://WWW.Google.com " target="_new ">User Agreement</a><br>
+<a href="http://WWW.Google.com " target="_new ">Privacy Policy</a><br>
+<a href="http://WWW.Google.com " target="_new ">Cookies</a><br>
+</div>
+
+<br><br><br><br><br><br><br>
+
+<!-- sub footer, goes to very bottom of page -->
+<div id="cpyrght ">
+<p>Copyright ©2015 Swaptize, Inc. All Rights Reserved</p>
+</div>
+
+
+
+</body>
+
+</html>
+
+<!-- end product pg -->
 
 
 
